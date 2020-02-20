@@ -1,0 +1,47 @@
+body {
+  background-color: #F5FCDA;
+  text-align: center;
+}
+
+.game {
+  display: inline-block;
+  text-align: center;
+  background-color: #DD9EFF;
+  border: 2px solid;
+  border-radius: 5%;
+  padding: 1%;
+  margin: 1%;
+}
+
+.col {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #F5FCDA;
+  margin: 5px;
+  display: inline-block;
+}
+
+ .col-empty {
+  cursor: pointer;
+}
+
+.col.red {
+  background-color: red;
+}
+
+.col.yellow {
+  background-color: gold;
+}
+
+.col.pred {
+  background-color: darkred;
+}
+
+.col.pyellow {
+  background-color: gold;
+}
+
+.restart {
+  visibility: hidden;
+}
